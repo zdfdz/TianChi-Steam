@@ -4,7 +4,7 @@ import pandas as pd
 import warnings
 import numpy as np
 
-warnings.filterwarnings('ignore')  # 忽略警告（看到一堆警告比较恶心）
+warnings.filterwarnings('ignore')
 train = pd.read_csv('data/zhengqi_train.txt', sep='\t')
 test = pd.read_csv('data/zhengqi_test.txt', sep='\t')
 
